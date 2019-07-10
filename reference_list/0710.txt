@@ -1,0 +1,51 @@
+https://ourcstory.tistory.com/tag/Beautifulsoup
+
+jason file만들기
+http://blog.naver.com/PostView.nhn?blogId=xowww&logNo=220987549179&parentCategoryNo=&categoryNo=76&viewDate=&isShowPopularPosts=true&from=search
+
+json file 읽기
+https://twpower.github.io/140-parsing-json-in-python
+
+원래 있는 단어들로 단어사전 형성 (참고하면 좋을 듯?)
+https://www.slideshare.net/NaverEngineering/ss-86166926
+
+sonlp 여기 깃허브 자료 잘 나왔음
+https://github.com/lovit/soynlp
+
+[5일차에 w2v, glove, fasttext 나와있음]
+https://github.com/lovit/fastcampus_textml_blogs
+
+Word2Vec 은 학습 때 보지 못했던 단어에 대해 word vector 를 알 수 없으며, infrequent words 에 대한 word vectors 도 학습이 잘 되지 않습니다. 이러한 단점을 보완하기 위하여 FastText 가 제안되었습니다. 이는 subword embedding 을 이용한 word embedding 방법으로, 미등록 단어와 infrequent words 에 대하여 frequent words 와의 형태적 유사성을 고려한 word vector 를 추정하여 줍니다.
+
+할일
+1. sort json file by value
+2. module_fasst_vec.py 완성하기(하는 방법 찾아봐야 될 듯)
+3. module_glove.py 다시 한번 봐야될 듯(이게 형태소를 분석하는게 아닌듯... 그냥 split하는 느낌임
+* 같은 코드로 구현된 것 참조
+https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/07/04/glove/
+
+* 같은거로 구현된 코드 참조
+https://github.com/lovit/lovit.github.io/blob/master/jupyter/GloVe.ipynb
+
+https://github.com/lovit/lovit.github.io/blob/master/jupyter/GloVe.ipynb?short_path=cb0e2bd
+
+이정도는 나와야 되는듯?
+ "text": [
+      "Create (word, contexts) matrix\n",
+      "  - counting word frequency from 30001 sents, mem=1.610 Gb\n",
+      "  - scanning (word, context) pairs from 30001 sents, mem=1.877 Gb\n",
+      "  - (word, context) matrix was constructed. shape = (24907, 24907)                    \n",
+      "  - done\n"
+
+  "data": {
+      "text/plain": [
+       "(24907, 24907)"
+
+
+=====내거
+Create (word, contexts) matrix
+  - counting word frequency from 1362 sents, mem=0.058 Gb
+  - scanning (word, context) pairs from 1362 sents, mem=0.059 Gb
+  - (word, context) matrix was constructed. shape = (214, 214)                    
+  - done
+(214, 214)

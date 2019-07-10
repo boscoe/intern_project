@@ -27,6 +27,9 @@ https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/07/04/glove/
 * 같은거로 구현된 코드 참조
 https://github.com/lovit/lovit.github.io/blob/master/jupyter/GloVe.ipynb
 
+코모란 사용법
+https://datascienceschool.net/view-notebook/70ce46db4ced4a999c6ec349df0f4eb0/
+
 https://github.com/lovit/lovit.github.io/blob/master/jupyter/GloVe.ipynb?short_path=cb0e2bd
 
 이정도는 나와야 되는듯?

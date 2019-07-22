@@ -1,0 +1,7 @@
+1. glove model python 사용법 설명
+
+https://medium.com/@japneet121/word-vectorization-using-glove-76919685ee0b
+
+
+2. 새로운 word embedding model
+https://github.com/naver/kor2vec

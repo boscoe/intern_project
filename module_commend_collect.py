@@ -14,29 +14,30 @@ BASE_URL = "https://play.google.com"
 import re
 
 class ops :
-    save_app_count=1
+    save_app_count=24224
 
     def inc(self):
         self.save_app_count=self.save_app_count+1
 
-utils=ops()
+utils = ops()
 
 def make_payload(page):
     return "start=%s&num=60&numChildren=0&cctcss=tall-cover&cllayout=NORMAL"%(page)
 
 
-def connect_category(url):
+def connect_category(url):#url : 해당 카테고리 url
 
     querystring = {"authuser": "0"}
 
-    start = 0
-    targets = list()
-    pre_count = len(targets)
-    current_count = len(targets)
+    start = 0 #변수값 의미 찾기
+    targets = list() #해당 카테고리에 있는 애플리케이션들의 url이 될것임
+    pre_count = len(targets) #처음엔 0임
+    current_count = len(targets) #처음엔 0임
 
     is_last = False
 
-    while not is_last:
+    check_times=0
+    while not is_last: #is_last가 true되면 끝난당
         payload = make_payload(start)
         headers = {
             'content-type': "text/html; charset=utf-8",
@@ -48,6 +49,9 @@ def connect_category(url):
         cate_soup = BeautifulSoup(res.content, 'html.parser')
         pre_count = len(targets)
         current_soup = cate_soup.select('.card-content .details a.title')
+
+        print("current_soup의 수")
+        print(len(current_soup))
 
 
         for s in current_soup:
@@ -68,14 +72,14 @@ def connect_category(url):
             is_last = True
 
         start += 60
-
+        print(start)
     return targets
 
 
 
 def get_category():
     # lines = open('googleplay_catepory_link.txt', 'r').readlines()
-    lines = open('1.txt', 'r').readlines()
+    lines = open('link.txt', 'r').readlines() #남은링크로... 크롤링 마무리해...
 
     return [line.split('\n')[0] for line in lines]
 
@@ -138,6 +142,11 @@ def data_parse(link):
             }
 
         # 폴더가 없으면 생성함
+        # 카테고리 이름 정제
+
+        if '/' in app_category: # / 기호가 있으면 잘라서 앞에만 가져오기
+            app_category=app_category.split('/')[0]
+
         folder_name='./app_info/'+app_category
         print(folder_name)
         if not os.path.isdir(folder_name):
@@ -158,11 +167,14 @@ if __name__ ==  "__main__":
     print('commend collecting crawler')
 
     categories = get_category()
-    for category_link in categories:
+    for category_link in categories: #카테고리의 수만큼(category.txt파일에 저장된 수만큼)
         targets = connect_category(category_link)
 
         print("애플리케이션 개수")
         print(len(targets))
+        print("category link")
+        print(category_link)
 
         for target in targets:
+
             data_parse(target['link'])

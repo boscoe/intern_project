@@ -1,0 +1,6 @@
+{
+	"app_link": "https://play.google.com/store/apps/details?id=com.serhatturkman.mastermindnumbers",
+	"app_category": "두뇌 게임",
+	"app_name": "MasterMind With Numbers",
+	"app_detail": "It's a simple one player game. You choose 4-digit number which all the digits are unique. Then the computer chooses another one. You and the computer have 15 turns to find each others number. When you select a number to guess the computer number, two hints are being showed. White hint: you guessed the digit correct and also the order of the digit is right. Red hint: you guessed the digit correct but the order of the digit is wrong.\n\nYou can find the source code at: \nhttps://github.com/elessarsst/mastermindnumbers\n그것은 단순한 하나의 플레이어 게임입니다. 모든 자릿수가 고유 한 4 자리 숫자를 선택합니다. 그런 다음 컴퓨터가 다른 컴퓨터를 선택합니다. 너와 컴퓨터는 서로 15 번씩 서로 번호를 찾는다. 번호를 선택하여 컴퓨터 번호를 추측하면 두 가지 힌트가 표시됩니다. 화이트 힌트 : 올바른 숫자를 추측했으며 그 숫자의 순서도 옳았습니다. 레드 힌트 : 정확한 숫자를 추측했지만 숫자의 순서가 잘못되었습니다.\n\n다음에서 소스 코드를 찾을 수 있습니다.\nhttps://github.com/elessarsst/mastermindnumbers\n"
+}

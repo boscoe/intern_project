@@ -1,0 +1,6 @@
+{
+	"app_link": "https://play.google.com/store/apps/details?id=com.nummolt.geoboard",
+	"app_category": "교육",
+	"app_name": "Geoboard",
+	"app_detail": "Geoboard:\nButtons:\n0=0 Insert new rubber band\nT Erase rubber band\nCol Change rubber band color\nA Calculate area\n\nDrag vertices and edges.\nDrag all mesh touching thumbtacks.\n\nZoom mesh with 'pinch zoom'.\n\n\nMenu:\nSquare or isometric mesh.\n\nPractice:\nCalculate area contained inside the rubber band (only in square mesh).\nPick's Theorem:\nA = I + B/2 -1\n\nA = Area\nI = Inner dots.\nB = Border dots.\n\nConvex, concave polygons, positive or negative areas\nGeoboard :\n버튼 :\n0 = 0 새 고무 밴드 삽입\nT 고무 밴드 지우기\nCol 고무 밴드 색상 변경\nA 계산 영역\n\n정점과 가장자리를 드래그하십시오.\n모든 메시를 드래그하여 압정으로 감싸줍니다.\n\n'집게 확대 / 축소'기능이있는 확대 / 축소 메쉬.\n\n\n메뉴:\n정사각형 또는 등각선 메쉬.\n\n연습:\n고무 밴드 내부에 포함 된 면적을 계산하십시오 (정사각형 메쉬에서만).\n픽스의 정리 :\nA = I + B / 2 -1\n\nA = 면적\nI = 내부 도트.\nB = 경계 점.\n\n볼록한, 오목한 다각형, 양수 또는 음수 영역\n"
+}

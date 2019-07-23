@@ -1,0 +1,6 @@
+{
+	"app_link": "https://play.google.com/store/apps/details?id=net.mpross.pwspaid",
+	"app_category": "날씨",
+	"app_name": "PWS-WU",
+	"app_detail": "A very simple data viewer for personal weather stations that are part of the WU network. View current conditions, daily statistics and plots of every plot-able signal all from your mobile device. This will be an on going project that will grow over time so hold on for more.\n\nSource: https://github.com/mpross/WU-PWS/tree/master/app/src/main\nWU 네트워크의 일부인 개인 기상 관측소를위한 매우 간단한 데이터 뷰어. 모바일 장치에서 모든 플롯 가능 신호의 현재 상태, 일일 통계 및 플롯을 봅니다. 이것은 시간이 지남에 따라 성장할 것입니다.\n\n출처 : https://github.com/mpross/WU-PWS/tree/master/app/src/main\n"
+}

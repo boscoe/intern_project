@@ -1,0 +1,6 @@
+{
+	"app_link": "https://play.google.com/store/apps/details?id=com.campmobile.snow",
+	"app_category": "사진",
+	"app_name": "SNOW - 뷰티, 메이크업, 셀피 카메라",
+	"app_detail": "전세계 2억명이 사용하는 카메라 앱, SNOW\n\n* 자연스럽게 예뻐지는 실시간 뷰티 효과! 나만의 스타일을 만들고 저장하세요\n* 트렌디한 AR 메이크업 효과로 인생 셀피를 찍어보세요\n* 매일매일 업데이트되는 수천가지의 다양한 스티커를 만나보세요\n* 이제 필터도 실시간 업데이트! 시즌 한정 배포되는 트렌디 필터를 놓치지마세요\n* 몇 번의 터치로 간편하게 전문가급의 앨범 사진 보정을 할 수 있어요\n\nSNOW 최신 소식보기:\n• 공식 페이스북 : https://www.facebook.com/snowapp\n• 공식 인스타그램 : https://www.instagram.com/snow_kr_official\n• 제휴 관련 문의 : dl_snowoperation@snowcorp.com\n\nFace Technology by SenseTime\nImage Segmentation & Bokeh Technology by NALBI.Inc\n\n\n■ 권한사항 세부정보\n• WRITE_EXTERNAL_STORAGE : 사진 저장을 위한 권한\n• READ_EXTERNAL_STORAGE : 사진을 불러오기 위한 권한\n• RECEIVE_SMS : 전화번호 인증시 인증번호 자동 입력을 위한 권한\n• READ_PHONE_STATE : 전화번호 인증시 국가 코드 자동 입력을 위한 권한\n• RECORD_AUDIO : 동영상 촬영시 소리 녹음을 위한 권한\n• GET_ACCOUNTS : 가입시 이메일 자동 입력을 위한 권한\n• READ_CONTACTS : 연락처 기반 친구 찾기를 위한 권한\n• ACCESS_COARSE_LOCATION : 위치 기반 필터를 표시해 주기 위한 권한 \n• CAMERA : 카메라 촬영을 위한 권한\n• SYSTEM_ALERT_WINDOW : 오류 메세지를 화면에 표시하기 위한 권한\n"
+}

@@ -1,0 +1,6 @@
+{
+	"app_link": "https://play.google.com/store/apps/details?id=com.google.vr.vrcore",
+	"app_category": "도구",
+	"app_name": "Google VR 서비스",
+	"app_detail": "Google VR 서비스에서는 Daydream 및 Cardboard 앱용 가상 현실 기능을 제공합니다. 여기에는 VR 상태에서 알림 표시, Daydream 호환 헤드셋/컨트롤러와 Daydream 호환 휴대전화 페어링, VR 앱 시작 및 종료와 같은 기능이 포함됩니다. \n\nGoogle VR 서비스를 제거하면 Daydream 앱이 작동하지 않습니다. \n\n이 앱을 사용하면 Google 서비스 약관(Google ToS, \nhttp://www.google.com/accounts/TOS) 및 Google의 일반적인 개인정보처리방침\n(http://www.google.com/intl/ko/policies/privacy/)에 동의하게 됩니다. 이 앱은 Google \nToS에 정의된 '서비스'이며 이 앱 사용 시 Google 소프트웨어 관련 약관이 적용됩니다.\n\n• 위치: 블루투스를 사용하는 Daydream 컨트롤러를 감지하여 페어링하는 데 필요합니다.\n• 저장공간: 사용 중인 VR 헤드셋에 Google VR 광학 매개변수를 동기화하는 데 필요합니다.\n• 카메라: Google Cardboard 등 일부 유형의 VR 헤드셋 페어링 시 QR 코드를 스캔하는 데 필요합니다.\n"
+}

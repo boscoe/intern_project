@@ -1,0 +1,6 @@
+{
+	"app_link": "https://play.google.com/store/apps/details?id=example.matharithmetics",
+	"app_category": "교육",
+	"app_name": "수학 트릭(암산 연습)",
+	"app_detail": "수학 트릭: \n[✔] x + y\n[✔] x - y\n[✔] x * y\n[✔] x / y\n[✔] x * 11\n[✔] x * x\nx = 15, 25, 35, 45, 55, 65 ..\n[✔] x * 5\n[✔] x * 9\n[✔] x * 4\n[✔] x / 5\n[✔] 1000 - x\n[✔] x * y\ny = 2, 4, 8\n[✔] 2 ^ x\n[✔] x + y\ny = 91 ~ 109, 191 ~ 209, 291 ~ 309 ..\n[✔] x - y\ny = 91 ~ 109, 191 ~ 209, 291 ~ 309 ..\n[✔] x * y\nx,y = 10 ~ 19\n[✔] x * x\nx = 11 ~ 99\n[✔] x1x2 * y1y2\nx1 = y1 = 1 ~ 9, x2 + y2 = 10\n23 * 27, 59 * 51, 37 * 33, 68 * 62 ..\n[✔] x * x\nx = 50 ~ 59\n[✔] x * x\nx = 40 ~ 49\n[✔] x * y\nx,y = 11, 21, 31, 41, 51, 61, 71, 81, 91\n[✔] x% -> y\n[✔] x * x\nx = 100 ~ 109\n\nMath Tricks 무료 버전에는 타사 광고가 포함됩니다.\n\nThe app uses the following APIs and libraries:\n* MPAndroidChart - created by Philipp Jahoda\n* ColorPIcker - created by Piotr Adamus\n"
+}

@@ -1,0 +1,6 @@
+{
+	"app_link": "https://play.google.com/store/apps/details?id=com.mxtech.ffmpeg.v7_neon",
+	"app_category": "라이브러리/데모",
+	"app_name": "MX 플레이어 코덱 (ARMv7 NEON)",
+	"app_detail": "ARMv7 NEON 타입 CPU용 MX 플레이어 코덱입니다.\n\nMX 플레이어는 가장 편리한 안드로이드 비디오 플레이어로 S/W코덱을 내장하여 대부분의 비디오 형식을 재생할 수 있으며, 멀티코어 디코딩을 지원합니다. \n\n** 이 소프트웨어는 단독으로 동작하지 않으며 MX 플레이어가 설치되어있어야 합니다. MX 플레이어는 자동으로 적합한 코덱을 감지하여 설치를 요청하므로 플레이어에서 요청하지 않은 경우에는 설치하실 필요가 없습니다.\n----\n개발자 연락처 :\nsupport@j2apps.com\n"
+}

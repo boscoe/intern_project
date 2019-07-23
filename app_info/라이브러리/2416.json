@@ -1,0 +1,6 @@
+{
+	"app_link": "https://play.google.com/store/apps/details?id=net.shallowmallow.pico",
+	"app_category": "라이브러리/데모",
+	"app_name": "Text To Speech Pico",
+	"app_detail": "Synthèse Vocale de Pico. Il provient de l'AOSP de google. Licence Apache 2\nCe moteur de synthèse vocal a la particularité d'utiliser le SSML contrairement au moteur google\n\nIl faudra télécharger les langues séparément ( sauf s'ils sont déja installés sur votre tablette, ce qui arrive souvent)\n피코의 보컬 합성. Google의 AOSP에서 제공됩니다. Apache 라이센스 2\n이 음성 합성 엔진은 Google 엔진과는 달리 SSML을 사용한다는 점에서 차이가 있습니다.\n\n언어가 별도로 다운로드됩니다 (태블릿에 이미 설치되어 있지 않은 경우 자주 발생합니다).\n"
+}

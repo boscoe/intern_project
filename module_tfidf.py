@@ -2,9 +2,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import defaultdict
 import json
 import glob
-from konlpy.tag import Komoran
+import os
 from konlpy.tag import Hannanum
-from operator import itemgetter
+
 
 # 하나의 문서군에 대해서 실행할 수 있음
 # 자동화하기 위해서 모든 카테고리에 대해 동일하게 실행하면 되는듯
@@ -15,8 +15,8 @@ from operator import itemgetter
 #TF-IDF.json 파일을 저장함
 
 
-
-file_dir='./app_info/맞춤 설정' #여기만 바뀌면 됨
+cate="교육"
+file_dir='./app_info/'+cate #여기만 바뀌면 됨
 
 
 
@@ -63,7 +63,15 @@ def get_text():
     return full_data, app_category,corpus
 
 
-def file_save(file_name, data, flag):
+def file_save(file_name, data, flag,folder_name):
+    # 디렉토리가 없으면 일단 생성
+    if not os.path.isdir(folder_name):
+            #파일이 없으면 생성함
+            os.mkdir(folder_name)
+            print("만들어라")
+    else:
+        print("있다..?")
+
     if flag=='text':
         a = open(file_name, 'a',encoding="utf-8")
         a.write(data+' ')
@@ -116,7 +124,7 @@ for i, sent in enumerate(corpus):  # word2id[token] 특정 단어의 id값을 �
     # print(tfidf_dict)
 
     #json file로 저장
-    file_save(folder_name+'/'+idx_list[i]+'_TFIDF.json',tfidf_dict,'json')
+    file_save(folder_name+'/'+idx_list[i]+'_TFIDF.json',tfidf_dict,'json',folder_name)
 
 print(corpus[0])
 

@@ -14,7 +14,7 @@ BASE_URL = "https://play.google.com"
 import re
 
 class ops :
-    save_app_count=24224
+    save_app_count=30000
 
     def inc(self):
         self.save_app_count=self.save_app_count+1

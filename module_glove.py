@@ -11,9 +11,11 @@ app_category="교육" #건강  으로 교체해야됨
 fnum=130
 #################################################
 
-folder_name='./app_analResult/'+app_category
-file_name=folder_name+'/'+'collect_nouns.txt' #명사만 있는 텍스트 파일
+# folder_name='./app_analResult/'+app_category
+# file_name=folder_name+'/'+'collect_nouns.txt' #명사만 있는 텍스트 파일
 
+##################################################################
+file_name='./dataset/collect_nouns.txt'
 
 corpus_path = file_name
 corpus = DoublespaceLineCorpus(corpus_path, iter_sent=True)
@@ -35,7 +37,7 @@ dictionary = {vocab:idx for idx, vocab in enumerate(idx2vocab)}
 glove.add_dictionary(dictionary)
 
 # 모델 저장
-glove.save('./model/gloves/glove_교육.model')
+# glove.save('./model/gloves/glove_교육.model')
 
 ########################################
 words = '별지 행성 별자리 모드 하늘 시계 88 태양 천문 위치 천체 천구 라이브 중심 디스플레이'.split() #이곳은 각 애플리케이션 문서의 키워드가 들어있음(키워드는 tf-idf로 추출함)
